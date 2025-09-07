@@ -42,25 +42,6 @@
     
     
     <entry>
-      <title>资料集</title>
-      <link href="/posts/4a17b156.html"/>
-      <url>/posts/4a17b156.html</url>
-      
-        <content type="html"><![CDATA[<p>这里是资料集</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 资料集 </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>进取时代</title>
       <link href="/posts/cbf1b572.html"/>
       <url>/posts/cbf1b572.html</url>
@@ -71,6 +52,25 @@
       <categories>
           
           <category> 通告 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>资料集</title>
+      <link href="/posts/4a17b156.html"/>
+      <url>/posts/4a17b156.html</url>
+      
+        <content type="html"><![CDATA[<p>这里是资料集</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 资料集 </category>
           
       </categories>
       
