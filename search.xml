@@ -4,9 +4,9 @@
   
     
     <entry>
-      <title></title>
-      <link href="/posts/3.html"/>
-      <url>/posts/3.html</url>
+      <title>古代</title>
+      <link href="/posts/e0f17fde.html"/>
+      <url>/posts/e0f17fde.html</url>
       
         <content type="html"><![CDATA[<p>test</p>]]></content>
       
@@ -15,7 +15,7 @@
           
           <category> 官方线 </category>
           
-          <category> 近代后期 </category>
+          <category> 古代 </category>
           
       </categories>
       
@@ -25,30 +25,9 @@
     
     
     <entry>
-      <title></title>
-      <link href="/posts/1.html"/>
-      <url>/posts/1.html</url>
-      
-        <content type="html"><![CDATA[<p>test</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 官方线 </category>
-          
-          <category> 近代中期 </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/posts/4.html"/>
-      <url>/posts/4.html</url>
+      <title>现代</title>
+      <link href="/posts/4f2237ad.html"/>
+      <url>/posts/4f2237ad.html</url>
       
         <content type="html"><![CDATA[<p>test</p>]]></content>
       
@@ -67,9 +46,9 @@
     
     
     <entry>
-      <title></title>
-      <link href="/posts/2.html"/>
-      <url>/posts/2.html</url>
+      <title>近代中期</title>
+      <link href="/posts/4f1b3546.html"/>
+      <url>/posts/4f1b3546.html</url>
       
         <content type="html"><![CDATA[<p>test</p>]]></content>
       
@@ -78,7 +57,7 @@
           
           <category> 官方线 </category>
           
-          <category> 近代早期 </category>
+          <category> 近代中期 </category>
           
       </categories>
       
@@ -88,9 +67,9 @@
     
     
     <entry>
-      <title></title>
-      <link href="/posts/0.html"/>
-      <url>/posts/0.html</url>
+      <title>近代后期</title>
+      <link href="/posts/c77182f6.html"/>
+      <url>/posts/c77182f6.html</url>
       
         <content type="html"><![CDATA[<p>test</p>]]></content>
       
@@ -99,7 +78,28 @@
           
           <category> 官方线 </category>
           
-          <category> 古代 </category>
+          <category> 近代后期 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>近代早期</title>
+      <link href="/posts/ce20bbcf.html"/>
+      <url>/posts/ce20bbcf.html</url>
+      
+        <content type="html"><![CDATA[<p>test</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 官方线 </category>
+          
+          <category> 近代早期 </category>
           
       </categories>
       
@@ -119,6 +119,79 @@
       <categories>
           
           <category> 创作线 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【顾白】顾白的投稿2</title>
+      <link href="/posts/f9ba2c20.html"/>
+      <url>/posts/f9ba2c20.html</url>
+      
+        <content type="html"><![CDATA[<p>这里是顾白的投稿2</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 创作线 </category>
+          
+          <category> 推荐 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 顾白 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【顾白】顾白的投稿3</title>
+      <link href="/posts/8ebd1cb6.html"/>
+      <url>/posts/8ebd1cb6.html</url>
+      
+        <content type="html"><![CDATA[<p>这里是顾白的投稿3</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 创作线 </category>
+          
+          <category> 作品 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 顾白 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>官方线</title>
+      <link href="/posts/e23018da.html"/>
+      <url>/posts/e23018da.html</url>
+      
+        <content type="html"><![CDATA[<p>这里是官方线</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 官方线 </category>
           
       </categories>
       
@@ -149,75 +222,6 @@
             <tag> 顾白 </tag>
             
         </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>【顾白】顾白的投稿2</title>
-      <link href="/posts/f9ba2c20.html"/>
-      <url>/posts/f9ba2c20.html</url>
-      
-        <content type="html"><![CDATA[<p>这里是顾白的投稿2</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 创作线 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 顾白 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>【顾白】顾白的投稿3</title>
-      <link href="/posts/8ebd1cb6.html"/>
-      <url>/posts/8ebd1cb6.html</url>
-      
-        <content type="html"><![CDATA[<p>这里是顾白的投稿3</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 创作线 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 顾白 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>官方线</title>
-      <link href="/posts/e23018da.html"/>
-      <url>/posts/e23018da.html</url>
-      
-        <content type="html"><![CDATA[<p>这里是官方线</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 官方线 </category>
-          
-      </categories>
-      
       
     </entry>
     
