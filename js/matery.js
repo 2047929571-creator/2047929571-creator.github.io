@@ -137,7 +137,7 @@ $(function () {
 
     function showOrHideNavBg(position) {
         // 检查 URL 是否包含 /categories/
-        if (window.location.pathname.indexOf('/categories/') !== -1) {
+        if (window.location.pathname.indexOf('/categories/') !== -1 || window.location.pathname.indexOf('/about/')!== -1) {
             $nav.removeClass('nav-transparent');
             return;
         }
