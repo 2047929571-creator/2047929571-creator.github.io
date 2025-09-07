@@ -136,6 +136,12 @@ $(function () {
     });
 
     function showOrHideNavBg(position) {
+        // 检查 URL 是否包含 /categories/
+        if (window.location.pathname.indexOf('/categories/') !== -1) {
+            $nav.removeClass('nav-transparent');
+            return;
+        }
+
         let showPosition = 100;
         if (position < showPosition) {
             $nav.addClass('nav-transparent');
