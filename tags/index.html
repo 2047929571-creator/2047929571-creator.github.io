@@ -147,12 +147,44 @@
     
     <li class="hide-on-med-and-down nav-item">
       
-      <a href="/categories/%E5%88%9B%E4%BD%9C%E7%BA%BF/" class="waves-effect waves-light">
+      <a href="/categories/创作线/" class="waves-effect waves-light">
+
         
         <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
         
         <span>创作线</span>
+        <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.6;"></i>
       </a>
+      <ul class="sub-nav menus_item_child ">
+        
+        <li>
+          <a href="/categories/%E5%88%9B%E4%BD%9C%E7%BA%BF/%E7%B2%BE%E5%8D%8E">
+            
+            <i class="fas fa-user-circle" style="margin-top: -20px; zoom: 0.6;"></i>
+            
+            <span>精华</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="/categories/%E5%88%9B%E4%BD%9C%E7%BA%BF/%E6%8E%A8%E8%8D%90">
+            
+            <i class="fas fa-user-circle" style="margin-top: -20px; zoom: 0.6;"></i>
+            
+            <span>推荐</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="/categories/%E5%88%9B%E4%BD%9C%E7%BA%BF/%E4%BD%9C%E5%93%81">
+            
+            <i class="fas fa-user-circle" style="margin-top: -20px; zoom: 0.6;"></i>
+            
+            <span>作品</span>
+          </a>
+        </li>
+        
+      </ul>
       
     </li>
     
@@ -297,12 +329,46 @@
         
         <li class="m-nav-item">
 	  
-		<a href="/categories/%E5%88%9B%E4%BD%9C%E7%BA%BF/" class="waves-effect waves-light">
+		<a href="javascript:;">
 			
-			    <i class="fa-fw fas fa-user-circle"></i>
+				<i class="fa-fw fas fa-user-circle"></i>
 			
 			创作线
+			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
 		</a>
+            <ul  style="background:  ;" >
+              
+                <li>
+
+                  <a href="/categories/%E5%88%9B%E4%BD%9C%E7%BA%BF/%E7%B2%BE%E5%8D%8E " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-user-circle" style="position: absolute;left:50px" ></i>
+			      
+		          <span>精华</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/categories/%E5%88%9B%E4%BD%9C%E7%BA%BF/%E6%8E%A8%E8%8D%90 " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-user-circle" style="position: absolute;left:50px" ></i>
+			      
+		          <span>推荐</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/categories/%E5%88%9B%E4%BD%9C%E7%BA%BF/%E4%BD%9C%E5%93%81 " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-user-circle" style="position: absolute;left:50px" ></i>
+			      
+		          <span>作品</span>
+                  </a>
+                </li>
+              
+            </ul>
           
         </li>
         
@@ -415,33 +481,8 @@
 </header>
 
     
-<div class="bg-cover pd-header about-cover" style="">
+<div class="bg-cover pd-header about-cover" style="height: 100px; min-height: 100px; padding-top: 70px; padding-bottom: 70px;">
   <div class="container">
-    
-      <div class="row">
-    <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
-        <div class="brand">
-            <div class="title center-align">
-                
-                进取时代
-                
-            </div>
-
-            <div class="description center-align">
-                
-                    
-                
-            </div>
-        </div>
-    </div>
-</div>
-
-<script>
-    // 强制使用默认背景图 banner/0.jpg
-    $('.bg-cover').css('background-image', 'url(/medias/banner/0.jpg)');
-    $('.bg-cover.about-cover').css('background-image', 'url(/medias/banner/0.jpg)');
-</script>
-
     
   </div>
 </div>
@@ -458,10 +499,43 @@
             </div>
             <div class="tag-chips">
                 
+                
+                <a href="/tags/%E9%A1%BE%E7%99%BD/" title="顾白: 3">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="顾白" style="background-color: #F9EBEA;">顾白
+                        <span class="tag-length">3</span>
+                    </span>
+                </a>
+                
             </div>
         </div>
     </div>
 </div>
+
+    
+    <link rel="stylesheet" type="text/css" href="/libs/jqcloud/jqcloud.css">
+<style type="text/css">
+    #tag-wordcloud {
+        width: 100%;
+        height: 300px;
+    }
+</style>
+
+<div class="container" data-aos="fade-up">
+    <div class="card">
+        <div id="tag-wordcloud" class="card-content"></div>
+    </div>
+</div>
+
+<script type="text/javascript" src="/libs/jqcloud/jqcloud-1.0.4.min.js"></script>
+<script type="text/javascript">
+    
+
+    $('#tag-wordcloud').jQCloud([{"text":"顾白","weight":3,"link":"/tags/顾白/"}], {
+        autoResize: true
+    });
+</script>
 
     
 

@@ -184,12 +184,44 @@
     
     <li class="hide-on-med-and-down nav-item">
       
-      <a href="/categories/%E5%88%9B%E4%BD%9C%E7%BA%BF/" class="waves-effect waves-light">
+      <a href="/categories/创作线/" class="waves-effect waves-light">
+
         
         <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
         
         <span>创作线</span>
+        <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.6;"></i>
       </a>
+      <ul class="sub-nav menus_item_child ">
+        
+        <li>
+          <a href="/categories/%E5%88%9B%E4%BD%9C%E7%BA%BF/%E7%B2%BE%E5%8D%8E">
+            
+            <i class="fas fa-user-circle" style="margin-top: -20px; zoom: 0.6;"></i>
+            
+            <span>精华</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="/categories/%E5%88%9B%E4%BD%9C%E7%BA%BF/%E6%8E%A8%E8%8D%90">
+            
+            <i class="fas fa-user-circle" style="margin-top: -20px; zoom: 0.6;"></i>
+            
+            <span>推荐</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="/categories/%E5%88%9B%E4%BD%9C%E7%BA%BF/%E4%BD%9C%E5%93%81">
+            
+            <i class="fas fa-user-circle" style="margin-top: -20px; zoom: 0.6;"></i>
+            
+            <span>作品</span>
+          </a>
+        </li>
+        
+      </ul>
       
     </li>
     
@@ -334,12 +366,46 @@
         
         <li class="m-nav-item">
 	  
-		<a href="/categories/%E5%88%9B%E4%BD%9C%E7%BA%BF/" class="waves-effect waves-light">
+		<a href="javascript:;">
 			
-			    <i class="fa-fw fas fa-user-circle"></i>
+				<i class="fa-fw fas fa-user-circle"></i>
 			
 			创作线
+			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
 		</a>
+            <ul  style="background:  ;" >
+              
+                <li>
+
+                  <a href="/categories/%E5%88%9B%E4%BD%9C%E7%BA%BF/%E7%B2%BE%E5%8D%8E " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-user-circle" style="position: absolute;left:50px" ></i>
+			      
+		          <span>精华</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/categories/%E5%88%9B%E4%BD%9C%E7%BA%BF/%E6%8E%A8%E8%8D%90 " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-user-circle" style="position: absolute;left:50px" ></i>
+			      
+		          <span>推荐</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/categories/%E5%88%9B%E4%BD%9C%E7%BA%BF/%E4%BD%9C%E5%93%81 " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-user-circle" style="position: absolute;left:50px" ></i>
+			      
+		          <span>作品</span>
+                  </a>
+                </li>
+              
+            </ul>
           
         </li>
         
@@ -611,53 +677,35 @@
     <article id="articles" class="container articles">
         <div class="row article-row">
             
-            
-             <!-- 隐藏某个文章 -->
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/posts/cbf1b572.html">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/24.jpg" class="responsive-img" alt="进取时代">
-                            
-                            <span class="card-title">进取时代</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                我们都是时间长河里的摆渡人。无论个人出身，还是人生兴落，我们都有自己梦想中的那个世界，无比美好，无比光明，无比惬意，在车水马龙，人生嘈杂的世界里，有的时候那个理想的世界仿佛已经成为了你唯一的精神支柱。或许在那个平行时空，你遇到了最好的人，做
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2025-09-06
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/%E9%80%9A%E5%91%8A/" class="post-category">
-                                    通告
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                </div>
-            </div>
-              <!-- 隐藏某个文章 -->
              <!-- 结束 filteredPosts.forEach -->
         </div>
     </article>
 
 </main>
+
+
+<div class="container paging">
+    <div class="row">
+        <div class="col s6 m4 l4">
+            
+            <a class="left btn-floating btn-large disabled">
+                <i class="fas fa-angle-left"></i>
+            </a>
+            
+        </div>
+        <div class="page-info col m4 l4 hide-on-small-only">
+            <div class="center-align b-text-gray">1 / 2</div>
+        </div>
+        <div class="col s6 m4 l4">
+            
+            <a href="/page/2/"
+               class="right btn-floating btn-large waves-effect waves-light bg-color">
+                <i class="fas fa-angle-right"></i>
+            </a>
+            
+        </div>
+    </div>
+</div>
 
 
 
