@@ -48,6 +48,8 @@ $(function () {
     let fixStyles = function () {
         fixPostCardWidth('navContainer');
         fixPostCardWidth('artDetail', 'prenext-posts');
+        // fixPostCardWidth('artDetail');
+
         fixFooterPosition();
     };
     fixStyles();
