@@ -576,12 +576,9 @@ header .go-back i {
 
 @font-face {
   font-family: 'STXinwei';
-  src: url('<%- url_for('../fonts/STXinwei.woff2') %>') format('woff2'),
-       /* url('<%- url_for('/fonts/STXinwei.woff') %>') format('woff'), */
-       url('<%- url_for('../fonts/STXinwei.ttf') %>') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+    src: url('../fonts/STXinwei.ttf'); 
 }
+
 .bg-cover .title {
     font-size: 12rem;
     line-height: 1.2em;
