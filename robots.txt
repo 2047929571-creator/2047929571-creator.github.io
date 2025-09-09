@@ -1,0 +1,22 @@
+User-agent: Googlebot
+User-agent: AdsBot-Google
+User-agent: BaiduSpider
+User-agent: YisouSpider
+User-agent: 360Spider
+User-agent: YodaoBot
+Disallow: /
+
+User-agent: SogouSpider
+User-agent: Sosospider
+User-agent: bingbot
+Allow: /
+Disallow: /categories/
+Disallow: /tags/ 
+Disallow: /about/ 
+Disallow: /books/ 
+Disallow: /movies/ 
+Disallow: /netdata/
+Disallow: /html/
+
+User-agent: *
+Disallow: /
