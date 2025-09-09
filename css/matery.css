@@ -572,6 +572,13 @@ header .go-back i {
     color: #fff;
     z-index: 2;
 }
+@font-face {
+  font-family: 'STXinwei';
+  src: url('<%- url_for('/fonts/STXinwei.ttf') %>') format('truetype');
+       /* url('<%- url_for('/fonts/STXinwei.woff') %>') format('woff'), */
+  font-weight: normal;
+  font-style: normal;
+}
 
 .bg-cover .title {
     font-size: 12rem;
